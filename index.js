@@ -84,7 +84,7 @@ function generarHTMLProveedores(proveedores) {
     const { document } = DOMProovedores.window;
 
     let tittle = document.getElementsByTagName("h2")[0]
-    tittle.innerHTML = "Listado de proovedores";
+    tittle.innerHTML = "Listado de proveedores";
     tittle.style.textAlign = "center";
 
 
