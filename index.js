@@ -44,6 +44,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`El servidor se está ejecutando en http://${hostname}:${port}/`);
+  console.log(`Acceso a los proveedores: http://${hostname}:${port}/api/proveedores`);
+  console.log(`Acceso a los clientes: http://${hostname}:${port}/api/clientes`);  
 });
 
 
